@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                                  /* Version de JavaScript pour la sortie générée */
+    "module": "commonjs",                                /* Génère des modules de type CommonJS */
+    "esModuleInterop": true,                             /* Permet l'importation de modules CommonJS avec ES6 */
+    "forceConsistentCasingInFileNames": true,            /* Assure la cohérence des noms de fichiers */
+    "skipLibCheck": true,                                /* Ignore la vérification des fichiers .d.ts des bibliothèques */
+    "strict": true,                                      /* Active toutes les options strictes de vérification de type */
+    "noImplicitAny": true,                               /* Signale les variables dont le type est implicite 'any' */
+    "moduleResolution": "node",                          /* Résolution des modules comme Node.js */
+    "resolveJsonModule": true,                           /* Permet l'importation de fichiers JSON */
+    "declaration": true,                                 /* Génère des fichiers .d.ts pour les modules */
+    "declarationMap": true,                              /* Crée des fichiers de sourcemaps pour les déclarations */
+    "outDir": "./dist",                                  /* Répertoire de sortie des fichiers compilés */
+    "noEmitOnError": true,                               /* Ne génère pas de fichiers si une erreur de type existe */
+    "preserveSymlinks": true                             /* Ne suit pas les symlinks, utile pour certains cas de projet */
+  },
+  "include": [
+    "src/**/*",                                          /* Inclut tous les fichiers TypeScript dans le dossier src */
+    "src/index.d.ts"                                     /* Inclut le fichier index.d.ts dans la compilation */
+  ],
+  "exclude": [
+    "node_modules"                                       /* Exclut le dossier node_modules de la compilation */
+  ]
+}
